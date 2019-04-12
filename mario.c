@@ -26,7 +26,7 @@ int i = get_positive_int("Height: ");
 //loop that makes pyramid.
 for (int k = 0; k < i; k++)
 {
-  for (int j = (i-k); 0 < j ; j--)
+  for (int j = (i-k); 1 < j ; j--)
     {
     printf(" ");
     }
