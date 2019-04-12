@@ -17,14 +17,16 @@ printf("Please enter in a number between 1 and 8\n");
 int i = get_positive_int("Height: ");
     
     
-//loop that makes pyramid.
+
 //i is height
 //j is space
 //k is number of rows
 //l is hashes
+
+//loop that makes pyramid.
 for (int k = 0; k < i; k++)
 {
-  for (int j = (i-k); j > 0; j--)
+  for (int j = (i-k); 0 < j ; j--)
     {
     printf(" ");
     }
@@ -34,7 +36,7 @@ for (int k = 0; k < i; k++)
   }
     printf("\n");
 }
-    return 0;
+return 0;
 }
 
 //prompt for height
@@ -45,6 +47,6 @@ int get_positive_int(string Height)
     {
         n = get_int("%s", Height);
     }
-    while ((n < 0) || (n > 8));
+    while ((n <= 0) || (n > 8));
     return n;
 }
