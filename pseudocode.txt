@@ -1,0 +1,9 @@
+Check that program had only one argument
+Iterate over to make sure all chars are digits
+convert str to int.
+Prompt for plaintext
+  
+If it is an uppercase letter, rotate it, then print out rotated char
+If it is a lowercase letter, rotate it, then print out rotated char
+Else, print char as is.
+Print newline.
