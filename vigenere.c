@@ -37,7 +37,7 @@ int main(int argc, string argv[])
                 if (isupper(plaintxt[i]))
                 {
                     j = (l % strlen(s));
-                    k = (tolower(s[j]) - 65);
+                    k = (toupper(s[j]) - 65);
                     printf("%c", (((plaintxt[i] + k) - 65) % 26) + 65);
                     l += 1;
                 }
