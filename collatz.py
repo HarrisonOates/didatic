@@ -1,4 +1,4 @@
-
+## Collatz Conjecture
 n = int(input('Any number: '))
 
 counter = 0
