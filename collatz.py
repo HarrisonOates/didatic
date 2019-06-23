@@ -13,6 +13,4 @@ while n!= 1:
         counter += 1
 
 if n == 1:
-    print('Number of steps: ', counter)
-
-
+    print('Collatz Number: ', counter)
